@@ -11,3 +11,5 @@ Data().getDataset()
 Data().getDataInCsv()
 ```
 The dataset will be downloaded in Dataset folder which will contain citation graph and abs folder. The abs folder will contain abstraction from all research papers which are stored in folders named according to the year of publication.
+
+!['Year wise distribution for number of research papers on arXiv']('yearwise_distribution.png')
