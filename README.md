@@ -20,4 +20,4 @@ s = ', '.join([AUTHOR_MAP_DASH[i] if i in AUTHOR_MAP_DASH.keys() else "UNK" for 
 
 print(f'Cited research authors {s} and the paper is {Model().getAuthor([X_test[index]], AUTHOR_MAP, model)}')
 ```
-**NOTE**: Preprocessing and RadiusNeighborsClassifier code can be found in IIITD.ipynb while node2vec.ipynb contains node2vec implementation of the similar task.
+**NOTE**: Preprocessing and RadiusNeighborsClassifier code can be found in IIITD.ipynb while node2vec.ipynb contains node2vec implementation.
